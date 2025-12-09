@@ -84,4 +84,4 @@ Get-GroupMembersRecursive -GroupName $GroupName -AllMembers ([ref]$AllMembers)
 $AllMembers | Format-Table
 
 # Disconnect session
-#Disconnect-MgGraph
+Disconnect-MgGraph
